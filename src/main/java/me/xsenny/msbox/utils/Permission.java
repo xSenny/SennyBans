@@ -1,11 +1,11 @@
 package me.xsenny.msbox.utils;
 
 public enum Permission {
-    MUTE("msbox.mute"), TEMPMUTE("msbox.tempmute"), BAN("msbox.ban"), TEMPBAN("msbox.tempban"), KICK("msbox.kick"),
-    VIEW_REPORTS("msbox.view_reports"), STAFF("msbox.staff"), TELEPORT("msbox.teleport"), TELEPORT_OTHER("msbox.teleport_other"),
-    SEE_VANISH("msbox.seevanish"),VANISH("msbox.vanish"), VANISH_OTHER("msbox.vanish_other"), INVSEE("msbox.invsee"),
-    INVSEE_EDIT("msbox.editinvsee"), INVSEE_ENDERCHEST("msbox.editenderchest"), CLEAR_INVENTORY("msbox.clearinv"),
-    FREEZE("msbox.freeze"), UNMUTE("msbox.unmute"), UNBAN("msbox.unban"), ALL("msbox.*"), CLEAR_CHAT("msbox.clearchat");
+    MUTE("sennybans.mute"), TEMPMUTE("sennybans.tempmute"), BAN("sennybans.ban"), TEMPBAN("sennybans.tempban"), KICK("sennybans.kick"),
+    VIEW_REPORTS("sennybans.view_reports"), STAFF("sennybans.staff"), TELEPORT("sennybans.teleport"), TELEPORT_OTHER("sennybans.teleport_other"),
+    SEE_VANISH("sennybans.seevanish"),VANISH("sennybans.vanish"), VANISH_OTHER("sennybans.vanish_other"), INVSEE("sennybans.invsee"),
+    INVSEE_EDIT("sennybans.editinvsee"), INVSEE_ENDERCHEST("sennybans.editenderchest"), CLEAR_INVENTORY("sennybans.clearinv"),
+    FREEZE("sennybans.freeze"), UNMUTE("sennybans.unmute"), UNBAN("sennybans.unban"), ALL("sennybans.*"), CLEAR_CHAT("sennybans.clearchat");
 
     private String permission;
     Permission(String per){
