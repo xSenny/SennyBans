@@ -1,0 +1,38 @@
+name: MsBox
+version: '${project.version}'
+main: me.xsenny.msbox.MsBox
+api-version: 1.19
+commands:
+  tempban:
+    description: tempban a player
+  ban:
+    description: ban a player permanently
+  mute:
+    description: mute a player permanently
+  tempmute:
+    description: tempmute a player
+  kick:
+    description: Kick a player
+  report:
+    description: Report a player
+  reports:
+    description: View all created reports
+  vanish:
+    description: Vanish a player of yourself
+    aliases: v
+  teleport:
+    description: Teleport to a player
+    aliases: tp
+  invsee:
+    description: See player's inventory
+  unban:
+    description: Unban a banned player
+  unmute:
+    description: Unmute a muted player
+  history:
+    description: View history of a player
+  freeze:
+    description: Freeze a player
+  clearchat:
+    description: Clear chat
+    aliases: cc
